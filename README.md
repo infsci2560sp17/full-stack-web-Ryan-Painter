@@ -1,10 +1,23 @@
-# TODO : Your Project Name
+# InfoSec Index
 
-TODO : Please provide a detailed project description.
+1. What is the proposed name for your Web application?
+    - InfoSec Index
+2. Who is the target audience for your Web application?
+    - The target audience for this web application is anyone who is new to or looking for foundational information about the information security field.
+3. What problem is it intended to solve for the target audience?
+    - The Information Security field as a whole is quite complex, so it can be quite difficult to get accurate information on career opportunities that exist for technologists/students (other than ethical hacking). This site would provide information on job options for those looking to break into the field, resources for learning information security concepts, and a mentorship directory in which experienced members of the InfoSec community can communicate with and provide guidance to those looking for mentorship.
+4. How will it meet the minimum project requirements?
+    - My site will have a combination of static informational content available, API integration with social media and job search sites, and user-tailored content post-authentication in which users will be able to communicate with their mentor and vice versa.
+5. Why is your proposed Web application unique or creative beyond simply meeting the minimum requirements?
+    - I feel that there is a legitimate gap in this sort of content being available in a centralized location. As far as creativity in use of technologies for this project, I will do my best to implement dynamic/interactive content as I learn throughout the course; I do not have much experience thus far with web technologies other than basic HTML, so I will be sure to try to use the skills acquired during this course to be creative with the features I include.
 
 ## Build status
 
 [![Build Status](https://travis-ci.org/infsci2560sp17/full-stack-web.svg?branch=master)](https://travis-ci.org/infsci2560sp17/full-stack-web-Ryan-Painter)
+
+## Changelog
+
+[Changelog](CHANGELOG.md)
 
 ## Web Site
 
