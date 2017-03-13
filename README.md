@@ -27,7 +27,7 @@ https://fast-shore-81408.herokuapp.com
 
 TODO : Please list key features of your project.
 
-* Key Feature 1
+* Hold a repository of InfoSec mentors for site participants.
 * Key Feature 2
 * Key Feature N
 

@@ -4,9 +4,10 @@ All notable changes to this project will be documented in this file.
 The format is based on Keep a Changelog (http://keepachangelog.com/)
 
 
-## [Unreleased]
+## [v1.3] - 2017-03-13
 ### Added
-- TBD
+- Added a section to input InfoSec mentors (mentor.html).
+- Created an entity, repository, service, controller, and page to support the InfoSec mentor section.
 
 ## [v1.2] - 2017-01-28
 ### Added

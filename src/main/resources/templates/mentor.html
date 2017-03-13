@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Add Mentors</title>
+    </head>
+    <body>
+        <h1 data-th-inline="text">List of InfoSec Mentors</h1>
+
+        <div>
+            <table style="border: 1px solid black">
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Mentor's InfoSec Specialization</th>
+                </tr>                
+                <tr data-th-each="mentor : ${mentor}">
+                    <td data-th-text="${mentor.id}"></td>
+                    <td data-th-text="${mentor.title}"></td>
+                    <td data-th-text="${mentor.mentorSpecializationType}"></td>
+                </tr>
+            </table>
+        </div>
+        
+        <hr />
+        Add Mentor<br />
+        <form data-th-action="@{/mentor/add}" name="addMentorForm" method="post">
+            Name: <input type="text" name="title" /><br />
+            Mentor's InfoSec Specialization:<br />
+            <input type="radio" name="mentorSpecializtionType" value="SecurityMonitoring" checked="checked" /> Security Monitoring<br />
+            <input type="radio" name="mentorSpecializtionType" value="DigitalForensics" /> Digital Forensics<br />
+            <input type="radio" name="mentorSpecializtionType" value="PenetrationTesting" /> Penetration Testing<br />
+            <input type="radio" name="mentorSpecializtionType" value="ApplicationSecurity" /> Application Security<br />
+            <input type="radio" name="mentorSpecializtionType" value="SecurityEngineering" /> Security Engineering<br />
+            <input type="radio" name="mentorSpecializtionType" value="VulnerabilityManagement" /> Vulnerability Management<br />
+            <input type="radio" name="mentorSpecializtionType" value="Other" /> Other<br />
+            <input type="submit" value="Add Mentor"/>
+        </form>
+        
+        <hr />       
+        <form data-th-action="@{/logout}" method="post">
+            <input type="submit" value="Sign Out"/>
+        </form>
+    </body>
+</html>
