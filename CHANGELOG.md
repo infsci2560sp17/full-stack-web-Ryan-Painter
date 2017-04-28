@@ -3,6 +3,9 @@ All notable changes to this project will be documented in this file.
 
 The format is based on Keep a Changelog (http://keepachangelog.com/)
 
+## [v1.4/1.5] - 2017-04-22
+### Added
+- Uploaded presentation content.
 
 ## [v1.3] - 2017-03-13
 ### Added
